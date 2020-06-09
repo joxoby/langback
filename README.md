@@ -1,2 +1,2 @@
 # langback
-A natural language control system
+A natural language feedback control system
