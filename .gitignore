@@ -1,1 +1,6 @@
 venv
+
+.cache
+.pytest_cache
+
+*.pyc
