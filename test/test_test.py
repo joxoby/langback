@@ -1,5 +1,9 @@
+import nltk
+
 from urllib import request
 from nltk import word_tokenize
+
+nltk.download('punkt') # for word_tokenize
 
 url = "http://www.gutenberg.org/files/2554/2554-0.txt"
 response = request.urlopen(url)
